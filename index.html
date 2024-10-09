@@ -1,11 +1,52 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>test html</title>
-</head>
-<body>
-    <h1>我的第一个标题</h1>
-    <p>我的第一个段落。</p>
-</body>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>input测试</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div class="base">
+			<p>version:3</p>
+
+			<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 28px; height: 28px;">
+				<circle cx="40" cy="40" r="38" fill="#007AFF"/>
+				<path d="M52.4325 36.3312L41.6179 25.5165C40.7732 24.6719 39.4041 24.6719 38.5595 25.5165L27.7448 36.3312C26.9002 37.1758 26.9002 38.545 27.7448 39.3896C28.5894 40.2342 29.9586 40.2342 30.8032 39.3896L37.9258 32.267V53.0009C37.9258 54.1959 38.8937 55.1639 40.0887 55.1639C41.2837 55.1639 42.2517 54.1959 42.2517 53.0009V32.267L49.3743 39.3896C49.796 39.8114 50.3497 40.0233 50.9035 40.0233C51.4572 40.0233 52.0109 39.8124 52.4327 39.3896C53.2773 38.545 53.2773 37.1758 52.4327 36.3312H52.4325Z" fill="white"/>
+			</svg>
+			<input class="claInput" type="text"/>
+			
+		</div>
+	</body>
+	<style>
+		body{
+			background-color: beige;
+			width: 100%;
+		}
+		.base{
+			width: 80%;
+			margin: auto;
+			position: absolute;
+			bottom: 300px;
+			background-color: bisque;
+		}
+		.claInput{
+			width: 80%;
+			background-color: aquamarine;
+			position :fixed;
+            border : 2px solid #007AFF;
+			box-sizing: border-box;
+			border-radius: 8px;
+            margin: 7px;
+            background: #000;
+            color: white;
+            padding: 0px 36px 0 10px;
+			z-index: 2;
+			box-shadow: 0px 0px 10px 0px rgba(0, 122, 255,0.8);
+		}
+	</style>
+	<script>
+		
+	</script>
+	</body>
 </html>
